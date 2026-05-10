@@ -1,3 +1,4 @@
 comp_env
 *.csv
+*.xlsx
 .idea*
