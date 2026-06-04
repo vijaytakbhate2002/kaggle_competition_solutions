@@ -1,0 +1,12 @@
+{
+    "max_depth": 9,
+    "min_child_weight": 12,
+    "gamma": 1.4581361780830173,
+    "subsample": 0.7937231495645877,
+    "colsample_bytree": 0.5330036780562728,
+    "reg_alpha": 0.17150656098766032,
+    "reg_lambda": 0.020305636939420946,
+    "learning_rate": 0.005737585718231751,
+    "n_estimators": 2222,
+    "best_roc_auc": 0.9455926156042255
+}
