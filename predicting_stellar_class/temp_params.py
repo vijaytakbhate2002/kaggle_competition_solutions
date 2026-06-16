@@ -12,3 +12,15 @@
 #                     'colsample_bytree': 0.6472035788104408, 'reg_alpha': 1.6143965568012781, 
 #                     'reg_lambda': 0.0457226857453295, 'min_split_gain': 0.520062046419683
 #                     } # 0.965875
+
+
+
+
+# Best BAL_ACC:
+# 0.9652527543667718
+
+# Best Parameters:
+# {'n_estimators': 1870, 'learning_rate': 0.011601430253062206, 'num_leaves': 107, 'max_depth': 14, 'min_child_samples': 7, 'subsample': 0.8572443058537453, 'colsample_bytree': 0.5483668633307212, 'reg_alpha': 1.6991787301428436, 'reg_lambda': 0.043140319122624206, 'min_split_gain': 0.3445044055035092}
+
+# parameter importance
+# {'min_split_gain': np.float64(0.5505803498730991), 'max_depth': np.float64(0.151478109207361), 'colsample_bytree': np.float64(0.14165547035770312), 'subsample': np.float64(0.04670188989956266), 'reg_alpha': np.float64(0.031044856058232508), 'reg_lambda': np.float64(0.020825443991804853), 'n_estimators': np.float64(0.020077161466004183), 'learning_rate': np.float64(0.01883714332178039), 'num_leaves': np.float64(0.014380635685115948), 'min_child_samples': np.float64(0.004418940139336077)}
