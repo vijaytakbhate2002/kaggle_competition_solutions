@@ -24,3 +24,13 @@
 
 # parameter importance
 # {'min_split_gain': np.float64(0.5505803498730991), 'max_depth': np.float64(0.151478109207361), 'colsample_bytree': np.float64(0.14165547035770312), 'subsample': np.float64(0.04670188989956266), 'reg_alpha': np.float64(0.031044856058232508), 'reg_lambda': np.float64(0.020825443991804853), 'n_estimators': np.float64(0.020077161466004183), 'learning_rate': np.float64(0.01883714332178039), 'num_leaves': np.float64(0.014380635685115948), 'min_child_samples': np.float64(0.004418940139336077)}
+
+
+# Best BAL_ACC So Far: 0.965450
+
+# Best Parameters So Far:
+# {'n_estimators': 1740, 'learning_rate': 0.020351923788765918, 'num_leaves': 122, 'max_depth': 14, 'min_child_samples': 10, 'subsample': 0.861682027191867, 'colsample_bytree': 0.6107623490793621, 'reg_alpha': 3.849206502394283, 'reg_lambda': 0.10814450488309463, 'min_split_gain': 0.4667688518030045}
+
+# XGB Best Parameters
+# Trial 5 | BAL_ACC: 0.958574
+# [I 2026-06-19 16:17:23,849] Trial 5 finished with value: 0.95857398741304 and parameters: {'n_estimators': 1922, 'learning_rate': 0.07572651117911147, 'max_depth': 11, 'min_child_weight': 16.57862345737206, 'gamma': 0.43027289898212806, 'subsample': 0.8628088249474746, 'colsample_bytree': 0.6324238360814142, 'colsample_bylevel': 0.9210802648059888, 'colsample_bynode': 0.2737667689129993, 'reg_alpha': 0.023008979797380327, 'reg_lambda': 0.00020736445177905034, 'max_delta_step': 7, 'max_bin': 511, 'scale_pos_weight': 3.613088311991323}. Best is trial 5 with value: 0.95857398741304.
