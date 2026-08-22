@@ -1,0 +1,11 @@
+oof\_&_probs folder contains oof and respective test prob files, so now I want to build end to end workflow as mentioned below for kaggle competition.
+
+1. install required libraries
+2. import reqtuired libaries
+3. generate a scirp to fetch oof and test probabilities plus make sure you don't lose the pair of oof and it's test prob for that you can use dictionary or anything you are confortable with, while fetching you will also make pair of their paths for example {oof*&\_probs\solution_0\lightgbm_oof.npy : oof*&\_probs\solution_0\lightgbm_test.npy} and save it so that we can use it for later execution.
+4. once path are collected and paired we will collect the data refering to the paired dictonary and store oof's and probs in seperate dictionaries by keeping same unique key for future paired data processing. this step also does validation of read data, if row count should match to input_data\train.csv this data and test_prob row count should match to input_data\test.csv, if it doesn't match then don't add it into dictionary and rais warning or just write a print function to show which data is skipped.
+5. once we read all the data and saved paired paths into json file, we are ready for further validations, make sure every value of oof's and probs is in between 0 and 1 only if not then add print function refereing to that file.
+6. Refer reference*scrips\hill_climber*&\_meta_stacking.ipynb this script for implementing hill climbing on finalized oof's and probs, so we will select the best performing oof's combinations using hill climbing algorithm and use their paried test prob to blend with respective weight computed according to hill climber. please use same hille climbing logic as mentioned in reference file. for hill climbing use torch library with cuda / cpu support to make it faster.
+7. Note: you don't need to implement this step this is just for you knowledge (future implementation) - This is future step we will do, output of hill climber tells use best probabilities to blend we will use same oof's to train meta model using torch library as I did in reference file
+   Note: execute exactly how I described
+   insttuction for you : also go through the oof\_&_probs folder before executing above steps also re
